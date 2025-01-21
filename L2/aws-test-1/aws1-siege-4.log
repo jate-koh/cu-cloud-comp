@@ -1,0 +1,97 @@
+# Test 11: 10:05 PM
+$ siege -c70 -d1 -r1 http://<redacted>/index.php
+[alert] Zip encoding disabled; siege requires zlib support to enable it
+** SIEGE 4.1.7
+** Preparing 70 concurrent users for battle.
+The server is now under siege...
+HTTP/1.1 200    185.69 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200    185.70 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200     0.03 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200     0.01 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200     0.05 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+HTTP/1.1 200     0.05 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+HTTP/1.1 200    185.99 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200     0.00 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200    186.06 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200     0.01 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200     0.06 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+HTTP/1.1 200     0.09 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+HTTP/1.1 200    186.33 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200     0.00 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200    186.36 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200     0.00 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200     0.05 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+HTTP/1.1 200    186.41 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200     0.01 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200     0.06 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+HTTP/1.1 200    186.46 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200     0.00 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200    186.46 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200     0.00 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200     0.05 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+HTTP/1.1 200     0.06 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+HTTP/1.1 200     0.06 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+HTTP/1.1 200    186.62 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200     0.00 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200     0.06 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+HTTP/1.1 200    186.75 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200     0.01 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200    186.81 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200     0.00 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200     0.05 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+HTTP/1.1 200     0.06 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+HTTP/1.1 200    186.87 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200     0.00 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200     0.05 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+HTTP/1.1 200    187.00 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200     0.00 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200     0.05 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+HTTP/1.1 200    187.08 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200     0.00 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200     0.06 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+HTTP/1.1 200    187.17 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200     0.00 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200    187.19 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200     0.00 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200     0.05 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+HTTP/1.1 200     0.05 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+HTTP/1.1 200    187.25 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200     0.00 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200     0.05 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+HTTP/1.1 200    187.32 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200     0.00 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200    187.32 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200     0.00 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200     0.05 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+HTTP/1.1 200     0.07 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+HTTP/1.1 200    187.40 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200     0.00 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200     0.05 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+HTTP/1.1 200    187.46 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200     0.00 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200    187.47 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200     0.00 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200    187.48 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200     0.00 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200     0.05 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+HTTP/1.1 200     0.06 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+HTTP/1.1 200     0.06 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+HTTP/1.1 200    187.72 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200     0.00 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200    187.74 secs:    3066 bytes ==> GET  /index.php
+HTTP/1.1 200     0.00 secs:    3490 bytes ==> GET  /styles.css
+HTTP/1.1 200     0.06 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+HTTP/1.1 200     0.05 secs:     193 bytes ==> GET  /css?family=Lobster+Two
+
+Transactions:		      78    hits
+Availability:		      63.93 %
+Elapsed time:		     188.78 secs
+Data transferred:	       0.17 MB
+Response time:		   62303.07 ms
+Transaction rate:	       0.41 trans/sec
+Throughput:		       0.00 MB/sec
+Concurrency:		      25.74
+Successful transactions:       78
+Failed transactions:	      44
+Longest transaction:	  187740.00 ms
+Shortest transaction:	       0.00 ms
